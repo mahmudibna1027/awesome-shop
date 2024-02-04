@@ -27,7 +27,7 @@ display: flex;
 .nav-container img{
     width: 90px;
     object-fit: cover;
-    margin-left: 60px;
+    /* margin-left: 60px; */
 }
 .nav-container p{
     font-size: 25px;
@@ -46,10 +46,10 @@ display: flex;
     text-decoration: none;
     font-size: 20px;
     font-weight: 700;
-    color: rgb(15, 9, 9);
+    color: rgb(255, 255, 255);
 }
 .btn{
-    background: #5c2b08;
+    background: #f36d0e;
     color: azure;
    font-weight: 700;
    font-size: 20px;
