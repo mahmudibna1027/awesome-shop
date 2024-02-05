@@ -65,10 +65,12 @@ display: flex;
 .banner-section{
     max-width: 1250px;
     margin: 0 auto;
-    background-color: rgba(227, 226, 226, 0.739);
+    background-color: #e6e9eb;
  min-height: 400px;
  display: flex;
  gap: 20px;
+ border-radius: 10px;
+ padding: 19px;
 }
 
 .text-container{
@@ -83,14 +85,18 @@ display: flex;
 .banner-img-container{
     /* border: 2px solid tomato; */
     width: 50%; 
+    position: relative;
+    
 }
 .banner-img-container > img{
     width: 100%;
     /* padding: 20px; */
+    border-radius: 10px;
     display: block;
     height: 100%;
     margin: 0 auto;
     object-fit: cover;
+    
 }
 .text-container h1, p, span{
     font-size: 45px;
@@ -120,6 +126,23 @@ display: flex;
 border: 2px solid rgb(40, 39, 39);
 border-radius: 5px;
 }
+.discount{
+    width: 100px;
+    height: 100px;
+    background: rgb(116, 177, 37);
+    border-radius: 50%;
+    border: 1.5px solid rgb(12, 12, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 70%;
+    left: 69%;
+    font-size: 25px;
+    font-weight: 700;
+}
+/* Products */
+
 
 
 
